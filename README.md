@@ -4,10 +4,10 @@ Nginx reverse proxy container optimized for Podman with auto-gen of reverse prox
 
 ## why this repo?
 
-On RHEL7 / CentOS 7 docker was the default container builder/runtime and I heavily used jwilder/nginx-proxy
+On RHEL7 / CentOS 7, docker was the default container builder/runtime and I heavily used jwilder/nginx-proxy
 with his beautiful [docker-gen][1] for [Automated Nginx Reverse Proxy for Docker][2].
 
-Non on RHEL8/ CentOS 8 things have changed, podman is the default container runtime and which has different API and no UNIX sockets for interaction.
+Non on RHEL8/ CentOS 8, things have changed, podman is the default container runtime and which has different API and no UNIX sockets for interaction.
 
 This repo will set up a similar "Automated Nginx Reverse Proxy mechanism" using podman.
 
